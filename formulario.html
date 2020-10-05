@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body style="background-color: purple;">    
+<section class="form-register">
+    <h3>Formulario Registro</h3>
+   <input class="label "type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">    
+   <input class="label" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos">    
+   <input class="label" type="text" name="semestre" id="semestre" placeholder="Ingrese su semestre">    
+   <input class="label" type="text" name="especialidad" id="especialidad" placeholder="Ingrese su especialidad">
+   <input class="label" type="text" name="tutor" id="tutor" placeholder="Ingrese el nombre de su tutor">    
+   <input class="label" type="email" name="correo" id="correo" placeholder="Ingrese su correo electrónico">
+   <input class="label" type="password" name="contraseña" id="contraseña" placeholder="Escriba su contraseña"> 
+   <input class="boton" type="button" onclick="pregunta()" value="Registrar"> 
+</section>
+<script>
+    function pregunta(){
+        if(confirm('¿Estás seguro de enviar este formulario?')){
+            document.formulario.submit()
+        }
+    }
+</script>
+</body>
+</html>

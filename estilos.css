@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+
+.form-register{
+    width: 400px;
+    background-color: gray;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+}
+ h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+.label{
+    width: 100%;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-size: 18px;
+    color: white;
+} 
+
+.form-register .boton{
+    width: 100%;
+    background: gray; 
+    border: none;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}  
+::placeholder{ color: black;} 
+
